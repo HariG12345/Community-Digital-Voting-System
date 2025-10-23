@@ -1,6 +1,4 @@
-<img width="1903" height="993" alt="image" src="https://github.com/user-attachments/assets/9bff329d-fabb-4f33-8ee8-1eeea3a435a8" />
-
-
+<img width="1905" height="667" alt="1 (1)" src="https://github.com/user-attachments/assets/936aee1b-528c-420c-99e6-9926b2fc6592" />
 
 
 # Community Digital Voting System 🚀
