@@ -1,3 +1,8 @@
+<img width="1903" height="993" alt="image" src="https://github.com/user-attachments/assets/9bff329d-fabb-4f33-8ee8-1eeea3a435a8" />
+
+
+
+
 # Community Digital Voting System 🚀
 
 Welcome! This project is developed and maintained by **Hari G**.
