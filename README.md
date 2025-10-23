@@ -1,12 +1,13 @@
-# Community Digital Voting System Project 🚀
+# Community Digital Voting System 🚀
 
-Welcome! This project is developed and maintained by **Hari G**.  
+Welcome! This project is developed and maintained by **Hari G**.
 
-Some unique things about me:  
-- I love exploring cutting-edge tech and full-stack development  
-- Always curious about AI, cybersecurity, and creative coding solutions  
-- Coffee fuels my coding marathons ☕  
-- Passionate about building projects that are both functional and visually appealing 🎨  
+Some unique things about me:
+- I love exploring cutting-edge tech and full-stack development
+- Always curious about AI, cybersecurity, and creative coding solutions
+- Coffee fuels my coding marathons ☕
+- Passionate about building projects that are both functional and visually appealing 🎨
+- Always looking for ways to make user experiences smooth and engaging ✨
 
 ---
 
@@ -14,8 +15,14 @@ Some unique things about me:
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) installed on your system
+- A code editor like [VS Code](https://code.visualstudio.com/)
+- Internet connection for installing dependencies
 
 ### Steps
-1. **Install dependencies**
+1. **Clone the repository**
    ```bash
-   npm install
+   git clone https://github.com/HariG12345/Community-Digital-Voting-System.git
+   cd Community-Digital-Voting-System
+- `npm install` → for installing dependencies
+- `npm run dev` → for development with hot reload  
+- `npm start` → for running the production-ready app 
