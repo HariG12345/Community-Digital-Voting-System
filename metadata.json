@@ -1,0 +1,5 @@
+{
+  "name": "Community Digital Voting System",
+  "description": "A web application that allows users to create, view, and vote on public proposals. It features real-time countdowns, vote distribution charts, and mock user authentication.",
+  "requestFramePermissions": []
+}

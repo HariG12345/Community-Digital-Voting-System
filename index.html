@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Digital Voting System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .animate-fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // Enable dark mode
+        theme: {
+          extend: {
+            colors: {
+              // Light theme
+              'brand-primary': '#4f46e5',
+              'brand-secondary': '#6366f1',
+              'status-active': '#10b981',
+              'status-closed': '#6b7280',
+              'status-expired': '#f59e0b',
+              // Dark theme futuristic colors
+              'dark-bg': '#0d1117',
+              'dark-card': '#161b22',
+              'dark-border': '#30363d',
+              'dark-text-primary': '#c9d1d9',
+              'dark-text-secondary': '#8b949e',
+              'brand-accent': '#22d3ee', // A vibrant cyan/aqua
+              'brand-accent-hover': '#5eead4',
+            },
+            animation: {
+              'spin-slow': 'spin 3s linear infinite',
+              'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.3.19",
+    "jspdf": "https://aistudiocdn.com/jspdf@^2.5.1",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^0.15.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-100 dark:bg-dark-bg text-gray-800 dark:text-dark-text-primary transition-colors duration-300 flex flex-col min-h-screen">
+    <div id="root" class="flex-grow"></div>
+    <footer class="bg-white dark:bg-dark-card text-center p-4 text-sm text-gray-500 dark:text-dark-text-secondary shadow-inner mt-auto">
+      © 2025 Community Digital Voting System | Designed & Developed by <strong>HARI G</strong>
+    </footer>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
