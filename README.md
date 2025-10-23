@@ -1,4 +1,4 @@
-# My Awesome Project 🚀
+# Community Digital Voting System Project 🚀
 
 Welcome! This project is developed and maintained by **Hari G**.  
 
